@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+</head>
+    <style>
+        table,th,td 
+        {
+            table-layout:fixed;word-break:break-all;
+            border:1px solid #DADFEA;
+            border-collapse:collapse;
+        }
+        .hrefcolor 
+        {
+            color: #ff3399;
+            text-decoration:none;
+        }
+        footer {
+    background-color: #4e4e4e;
+	width: 99%;
+	bottom: 0px;
+    margin: 0px;
+    padding-left: 10px;
+	position: fixed;
+    padding-top: 8px;
+    color: white;
+    font-size: 12px;
+}
+.hrefcolor
+{
+    color: #ff3399;
+    text-decoration:none;
+}
+.title
+{
+    padding: 0px 5px;
+    margin: -15px 0px;
+}
+ul
+{
+    width: 100px;
+    height: 300px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.introduce
+{
+    position: absolute;
+    top: 330px;
+}
+.menu
+{
+    border: 2px solid #808080;
+    display: grid;
+    width: 130px;
+    float: left;
+}
+.icon{
+    position: absolute;
+    left: 150px;
+    border: 2px solid #808080;
+    width: 280px;
+    height: 320px;
+}
+.bottom{
+    position: absolute;
+    left: 8px;
+    top: 390px;
+    border: 2px solid #808080;
+    width: 800px;
+    height: 320px;
+    padding: 10px;
+}
+</style>
+<body>
+    <hearder>
+<!----------제목-------------->
+        <div class="title">
+             <h1>시간표</h1>
+        </div>
+    </hearder>
+<!----------목차-------------->
+        <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="hrefcolor">로그아웃</a></li>
+                <li><a href="main.html" class="hrefcolor">메인</a></li>
+                <li><a href="schedule.html" class="hrefcolor"><mark>시간표</mark></a></li>
+                <li><a href="https://gsl.kbu.ac.kr/class/#/home" target="_blank" class="hrefcolor">E-Campus</a></li>
+                <li><a href="http://kbu.ac.kr" target="_blank" class="hrefcolor">경복대학교</a></li>
+            </ul>
+        </nav>
+    </div>
+        <!---------------경복대학교 시간표----------------->
+        <div style="width: 917px; height: 700px; overflow: auto;">
+        <table class="scrolltable" style="width: 900px">
+            <!------------제목줄------------->
+            <tr height="45" align="center" bgcolor="8a8b8f"> 
+                <td width="75"><font color="white"><b></b></font></td>
+                <td><font color="white"><b>MON</b></font></td>
+                <td><font color="white"><b>TUE</b></font></td>
+                <td><font color="white"><b>WED</b></font></td>
+                <td><font color="white"><b>THU</b></font></td>
+                <td><font color="white"><b>FRI</b></font></td>
+            <!------------------------------>
+            </tr>
+            <tr width="800" height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">09:00</font></td>
+                <td><font color="#DA5843"><b>09:00 - 09:50</b></font><br>IT기술과역사-1C0</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><font color="#FF9453"><b>09:00 - 09:50</b></font><br>영어(1)-1D0 </td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">10:00</font></td>
+                <td><font color="#DA5843"><b>10:00 - 10:50</b></font><br>IT기술과역사-1C0</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><font color="#FF9453"><b>10:00 - 10:50</b></font><br>영어(1)-1D0</td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">11:00</font></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><font color="#4E7AFF"><b>11:00 - 11:50</b></font><br>3D프린팅과창업-1C0</td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">12:00</font></td>
+                <td></td>
+                <td ></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">13:00</font></td>
+                <td><font color="#FD739D"><b>13:00 - 13:50</b></font><br>M화면구현(1)-1C0</td>
+                <td></td>
+                <td><font color="#FFD43F"><b>13:00 - 13:50</b></font><br>SW기초기술활용-1C0</td>
+                <td><font color="#48C78D"><b>13:00 - 13:50</b></font><br> MIoT설계-1C0</td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">14:00</font></td>
+                <td><font color="#FD739D"><b>14:00 - 14:50</b></font><br>M화면구현(1)-1C0</td>
+                <td></td>
+                <td><font color="#FFD43F"><b>14:00 - 14:50</b></font><br>SW기초기술활용-1C0</td>
+                <td><font color="#48C78D"><b>14:00 - 14:50</b></font><br> MIoT설계-1C0</td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">15:00</font></td>
+                <td><font color="#FD739D"><b>15:00 - 15:50</b></font><br>M화면구현(1)-1C0</td>
+                <td><font color="#4CD0C9"><b>15:00 - 15:50</b></font><br>M컴퓨터네트워크및<br>운영체제-1C0</td>
+                <td><font color="#FFD43F"><b>15:00 - 15:50</b></font><br>SW기초기술활용-1C0</td>
+                <td><font color="#48C78D"><b>15:00 - 15:50</b></font><br>MIoT설계-1C0</td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">16:00</font></td>
+                <td></td>
+                <td><font color="#4CD0C9"><b>16:00 - 16:50</b></font><br>M컴퓨터네트워크및<br>운영체제-1C0</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">17:00</font></td>
+                <td></td>
+                <td><font color="#4CD0C9"><b>17:00 - 17:50</b></font><br>M컴퓨터네트워크및<br>운영체제-1C0</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">18:00</font></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">19:00</font></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><font color="#964BCF"><b>19:00 - 19:50</b></font><br>예술과역사여행-1C0</td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">20:00</font></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">21:00</font></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">22:00</font></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="60" align="left" bgcolor="white">
+                <td align="center"><font color="8a8b8f">23:00</font></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        </div>
+</body>
+</html>

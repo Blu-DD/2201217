@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+</head>
+    <style>
+        footer {
+            background-color: #4e4e4e;
+            width: 100%;
+            bottom: 0px;
+            margin: 800px 0px 0px 0px;
+            padding-left: 10px;
+            position: fixed;
+            padding-top: 8px;
+            padding-bottom: 1px;
+            color: white;
+            font-size: 12px;
+        }
+        .hrefcolor
+        {
+            color: #ff3399;
+            text-decoration:none;
+        }
+        .title
+        {
+            padding: 0px 5px;
+            margin: -15px 0px;
+        }
+        ul
+        {
+            width: 100px;
+            height: 300px;
+            margin: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+        }
+        .introduce
+        {
+            position: absolute;
+            top: 330px;
+        }
+        .menu
+        {
+            border: 2px solid #808080;
+            display: grid;
+            width: 130px;
+            float: left;
+        }
+        .icon{
+            position: absolute;
+            left: 150px;
+            border: 2px solid #808080;
+            width: 280px;
+            height: 320px;
+        }
+        .mid{
+            position: absolute;
+            left: 8px;
+            top: 390px;
+            border: 2px solid #808080;
+            width: 800px;
+            height: 320px;
+            padding: 10px;
+        }
+        .aside
+        {
+            position: absolute;
+            border: 2px solid #808080;
+            left: 443px;
+            width: 500px;
+            height: 320px;
+        }
+    </style>
+<body>
+    <hearder>
+<!----------제목-------------->
+        <div class="title">
+             <h1>메인화면</h1>
+        </div>
+    </hearder>
+<!----------목차-------------->
+        <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="hrefcolor">로그아웃</a></li>
+                <li><a href="main.html" class="hrefcolor"><mark>메인</mark></a></li>
+                <li><a href="schedule.html" class="hrefcolor">시간표</a></li>
+                <li><a href="https://gsl.kbu.ac.kr/class/#/home" target="_blank" class="hrefcolor">E-Campus</a></li>
+                <li><a href="http://kbu.ac.kr" target="_blank" class="hrefcolor">경복대학교</a></li>
+                <div class="introduce">
+                    <p><input type="button" value="Introduce" onclick="alert('이 웹페이지는 경복대학교 실습과제에 제출하기 위해 제작되었습니다.')"></p>
+                </div>
+            </ul>
+        </nav>
+    </div>
+<!------------아이콘--------------->
+        <div class="icon">      
+            <a href="https://www.figma.com/proto/tdzlof3qr4LbxjABwcQL4H/1C%EC%9D%B4%EB%8F%99%EA%B7%BC_2201217?node-id=6%3A19&starting-point-node-id=6%3A19" target="_blank"><img src="./IMG/figma.png" style="margin: 5px;" alt="피그마" width="75"></a>
+            <div style="position: absolute; left: 85px; top: 28px; font-size: 1.5em;"><font color="#3Ed4be"><b>피그마 실습 과제</b></font><br></div>
+            <br><a href="https://www.youtube.com/" target="_blank"><img src="./IMG/YouTube.png" style="margin: 0px 10px;" alt="유튜브" width="75"></a>
+            <div style="position: absolute; left: 95px; top: 97px; font-size: 1.5em;"><font color="red"><b>유튜브</b></font><br></div>
+            <br><a href="https://www.naver.com/" target="_blank"><img src="./IMG/naver.png" style="margin: 3px 5px;" alt="네이버" width="75"></a>
+            <div style="position: absolute; left: 85px; top: 170px; font-size: 1.5em;"><font color="#96e069"><b>네이버</b></font><br></div>
+            <br><a href="https://www.google.com/" target="_blank"><img src="./IMG/google.png" style="margin: 0px 12px;" alt="구글" width="60"></a>
+            <div style="position: absolute; left: 85px; top: 245px; font-size: 1.5em;"><font color="red"><b>구</b></font><font color="558bfc"><b>글</b></font><br></div>
+        </div>
+<!-------------중간------------>
+        <div class="mid">
+            <h3 style="margin: 5px 5px;">
+                Vad är Lorem Ipsum?
+            </h3>
+           <a>
+            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable.
+           </a>
+        </div>  
+<!-----------사이드------------->
+        <div class="aside">
+            <img src="./IMG/cat.jpg" style="margin: 5px;" width="490px" height="310px">
+        </div>
+<!------------하단------------->
+    <footer>
+        <nav>
+            <a href="https://github.com/Blu-DD/2201217" class="hrefcolor" target="_blank">Github</a>
+        </nav>
+        <p>
+            <span>대표 : 이동근</span><br>
+            <span>이메일 : minecrsoft@kbu.ac.kr</span><br>
+            <span>Copyright 2022. 이동근 All Rights Reserved.</span>
+        </p>
+    </footer>
+</body>
+</html>
